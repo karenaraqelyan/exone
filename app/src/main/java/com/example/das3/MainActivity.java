@@ -61,11 +61,11 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
         BottomNavigationView navView = findViewById(R.id.nav_view);
         mTextMessage = findViewById(R.id.message);
         navView.setOnNavigationItemSelectedListener(mOnNavigationItemSelectedListener);
-//        getAlert();
-//        getRating();
-//        getSeek();
-//        getDate();
-//        getTime();
+        getAlert();
+        getRating();
+        getSeek();
+        getDate();
+        getTime();
 
         Spinner spin = (Spinner) findViewById(R.id.spinner);
         Spinner spin1 = (Spinner) findViewById(R.id.spinner1);
